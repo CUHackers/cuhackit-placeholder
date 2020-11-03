@@ -369,11 +369,12 @@ p {
 #about {
   width: 100%;
   position: absolute;
-  margin-top: -115vh;
+  margin-top: -100vh;
   background-image: url("trees.png");
   background-size: 100%;
   background-repeat: no-repeat;
   max-height: 115vh;
+  overflow: hidden;
 
 }
 
