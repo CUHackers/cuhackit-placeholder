@@ -353,19 +353,14 @@ p {
   width: 100%;
 }
 
-#aboutholder {
-  height: 25vh;
-  background-color: #264653;
-}
-
 #about {
   width: 100%;
   position: absolute;
-  margin-top: -100vh;
+  margin-top: -700px;
   background-image: url("trees.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  max-height: 115vh;
+  height: 850px;
 }
 
 #about .block {
@@ -386,8 +381,7 @@ h2 {
 #about .text {
   z-index: 4;
   max-width: 600px;
-  min-height: 100vh;
-  bottom: -650px;
+  bottom: -500px;
   margin: auto;
   flex: 35%;
   text-align: justify;
@@ -428,9 +422,8 @@ h2 {
 
 #partners {
   margin: auto;
-  margin-top: 10vh;
   text-align: center;
-  padding: 5em 0 10em 0;
+  padding: 15em 0 10em 0;
   background-color: #2a9d8f;
   width: 100%;
   box-shadow: 0px 0px 20px rgba(16, 11, 20, 0.2);
