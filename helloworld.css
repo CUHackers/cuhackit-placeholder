@@ -423,7 +423,7 @@ h2 {
 #partners {
   margin: auto;
   text-align: center;
-  padding: 15em 0 10em 0;
+  padding: 15em 0 5em 0;
   background-color: #2a9d8f;
   width: 100%;
   box-shadow: 0px 0px 20px rgba(16, 11, 20, 0.2);
@@ -437,16 +437,22 @@ h2 {
   font-size: 1em;
   font-weight: 600;
   box-shadow: 0px 5px 10px rgba(16, 11, 20, 0.2);
+  position: relative;
+  /* bottom: 3vh; */
+  /* margin-top: 50px; */
 }
 
 #partnercloud {
   width: 80%;
   max-width: 90%;
+  height: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
+  margin-top: 1vh;
+  margin-bottom: 12vh;
 }
 
 #partnercloud a {
@@ -459,6 +465,8 @@ h2 {
 
 #partnercloud img {
   max-width: 100%;
+  width: 80%;
+  height: auto;
 }
 
 #contact {
@@ -1038,8 +1046,8 @@ h4 {
 
   #partnerbutton {
     font-size: 1.75em;
-    position: relative;
-    top: 50px;
+    /* position: relative;
+    top: 50px; */
   }
 
   #contact {
